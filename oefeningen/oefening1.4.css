@@ -1,0 +1,96 @@
+* {
+    font-family: "Calibri Light", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("/assets/achtergrond.png");
+}
+
+header {
+    width: 960px;
+    background-color: #2F4F4F;
+    color: #ffffff;
+    font-variant: small-caps;
+    padding: 25px;
+    /*border-radius: 0 0 10px 10px; !*Je begin linksboven in de hoek en ga je kloksgewijs*!*/
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: fixed;
+    left: 50%;            /* Move to the center horizontally */
+    transform: translateX(-50%);   /* Center horizontally */
+    top: 0;               /* Position at the top anders gaat die op bovenkant van volgende laag*/
+}
+
+main{
+    width: 960px;
+    margin: 100px auto 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+main h1, main h3, main p{
+    padding-bottom: 16px;
+}
+
+main h2{
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+section{
+    height: 800px;
+    padding: 20px;
+}
+
+main section article{
+    background-color: #cccccc;
+    margin: 20px 0;
+    overflow: auto;
+    height: calc((100% / 3) - ((20px*4)/3)); /*100/3 is omdat je 3 delen hebt die je wilt zetten in die section en ze moeten even groot zijn. Die(20px*4) doen we omdat je tussen al die deeltjes spatie wilt hebben en erboven en eronder ook. en dan die laatste delen door die is omdat je elke artikel evenveel van die 20 px wilt geven dus tussen elke spatie 'margin' ding tussen */
+}
+
+section h3{
+    padding: 20px 0;
+}
+
+
+footer p {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    padding: 20px;
+    background-color: #2F4F4F;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*#FFFFFF, #CCCCCC en #2F4F4F.*/
+
+/*
+
+*Plaats het structuurelement daarna gefixeerd bovenaan in het midden de webpagina.
+Gebruik hiervoor de stijleigenschap ‘transform’ (zoek de werking op via het internet!)
+
+
+* Gebruik afgeronde hoeken van 10px waar nodig.
+
+* Zorg, waar nodig, voor witruimte binnen en buiten de elementen.
+
+* Plaats de drie artikelen als article-structuurelementen in
+  een section-structuurelement.
+
+* Maak de top 3 artikelen alle drie even hoog met behulp van calc()
+
+* Zorg dat er een scroll-balk aanwezig is indien de teksten niet
+  volledig in de article-structuurelementen passen.
+*/

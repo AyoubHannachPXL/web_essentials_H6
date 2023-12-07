@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 20px;
+    color: #ff4500;
+}
+main{
+    padding: 20px;
+}
+
+main aside{
+    height: 150px;
+    width: 150px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: #000 5px 5px 5px;
+    background-color: #ff4500;
+    position: absolute;
+}
+
+main aside #a1{
+    top: 70px;
+    left: 20px;
+    z-index: 1;
+}
+main aside #a2{
+    top: 90px;
+    left: 40px;
+    opacity: 0.8;
+    z-index: 2;
+}
+main aside #a3{
+    top: 110px;
+    left: 60px;
+    opacity: 0.6;
+    z-index: 3;
+}
+main aside #a4{
+    top: 130px;
+    left: 20px;
+    opacity: 0.4;
+    z-index: 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#a1{*/
+/*    box-shadow : 3px 3px 4px 0 #000000;*/
+/*    z-index: 5;*/
+/*    padding: 50px;*/
+/*    background-color: #ff4500;*/
+/*    border: 1px solid #000000;*/
+/*    border-radius: 5px;*/
+/*    position: absolute;*/
+/*    left: 20px;*/
+/*    top: 20px;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*}*/
+/*#a2{*/
+/*    box-shadow : 3px 3px 4px 0 #000000;*/
+/*    z-index: 4;*/
+/*    padding: 50px;*/
+/*    background-color: #ff4500;*/
+/*    position: absolute;*/
+/*    border: 1px solid #000000;*/
+/*    border-radius: 5px;*/
+/*    left: 30px;*/
+/*    top: 30px;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    opacity: 80%;*/
+/*}*/
+/*#a3{*/
+/*    box-shadow : 3px 3px 4px 0 #000000;*/
+/*    z-index: 3;*/
+/*    padding: 50px;*/
+/*    background-color: #ff4500;*/
+/*    position: absolute;*/
+/*    border: 1px solid #000000;*/
+/*    border-radius: 5px;*/
+/*    top: 40px;*/
+/*    left: 40px;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    opacity: 60%;*/
+/*}*/
+/*#a4{*/
+/*    box-shadow : 3px 3px 4px 0 #000000;*/
+/*    z-index: 2;*/
+/*    padding: 50px;*/
+/*    background-color: #ff4500;*/
+/*    position: absolute;*/
+/*    border: 1px solid #000000;*/
+/*    border-radius: 5px;*/
+/*    top: 50px;*/
+/*    left: 50px;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    opacity: 40%;*/
+/*}*/
+/*#a5{*/
+/*    box-shadow : 3px 3px 4px 0 #000000;*/
+/*    z-index: 1;*/
+/*    padding: 50px;*/
+/*    background-color: #ff4500;*/
+/*    position: absolute;*/
+/*    border: 1px solid #000000;*/
+/*    border-radius: 5px;*/
+/*    top: 60px;*/
+/*    left: 60px;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    opacity: 20%;*/
+/*}*/
